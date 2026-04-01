@@ -1,0 +1,70 @@
+{
+  "keygen": {
+    "times_ms": [
+      65.8597000001464,
+      72.71889999992709,
+      58.08230000002368,
+      61.482199999773,
+      44.49629999999161
+    ],
+    "mean_ms": 60.53,
+    "stdev_ms": 9.39,
+    "min_ms": 44.5,
+    "max_ms": 72.72
+  },
+  "encaps": {
+    "times_ms": [
+      48.2452999999623,
+      47.876499999802036,
+      48.4943999999814,
+      48.71289999982764,
+      47.739999999976135
+    ],
+    "mean_ms": 48.21,
+    "stdev_ms": 0.37,
+    "min_ms": 47.74,
+    "max_ms": 48.71
+  },
+  "decaps": {
+    "times_ms": [
+      55.01479999975345,
+      53.410600000006525,
+      53.28109999982189,
+      53.53740000009566,
+      52.50159999968673
+    ],
+    "mean_ms": 53.55,
+    "stdev_ms": 0.82,
+    "min_ms": 52.5,
+    "max_ms": 55.01
+  },
+  "security": {
+    "correctness": true,
+    "vrf_deterministic": true,
+    "vrf_verify_valid": true,
+    "vrf_verify_reject": true,
+    "tamper_detected": true,
+    "wrong_key_rejected": true,
+    "bridge_sensitivity": true,
+    "order_uniform": true
+  },
+  "ciphertext_size": {
+    "rsa_oaep_bytes": 256,
+    "elgamal_bytes": 512,
+    "aes_gcm_bytes": 60,
+    "total_asym_bytes": 768,
+    "total_ct_bytes": 828
+  },
+  "environment": {
+    "os": "Windows 10",
+    "architecture": "AMD64",
+    "python_version": "3.11.13",
+    "cpu": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+    "rsa_key_bits": 2048,
+    "elgamal_bits": 2048,
+    "session_key_len": 256,
+    "aes_mode": "AES-256-GCM",
+    "vrf_mode": "HMAC-SHA256 (ECVRF-P256 approximation)",
+    "hash_bridge": "SHA-512"
+  }
+}
